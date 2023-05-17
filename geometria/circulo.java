@@ -23,7 +23,6 @@ public class circulo extends FormasGeometricas {
         System.out.println("Quanto vale o raio do círculo?");
         raio = scam.nextDouble();
         perimetro = 2 * PI * raio;
-        scam.close();
         return perimetro;
     } 
 }

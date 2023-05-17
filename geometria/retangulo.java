@@ -29,7 +29,6 @@ public class retangulo extends FormasGeometricas {
         altura = scam.nextDouble();
 
         perimetro = 2 * (base + altura);
-        scam.close();
         return perimetro;
     } 
 }
